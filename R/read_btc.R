@@ -1,5 +1,6 @@
 #' Read bitcoinchart data
 #' @importFrom readr read_csv
+#' @importFrom dplyr mutate
 #' @export
 
 read.btc <- function(exc='kraken', cur='GBP', folder='.'){
