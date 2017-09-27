@@ -8,6 +8,11 @@ The scripts in this repository allow to download market data from bitcoincharts,
 # Usage
 **Warning: Do not run the data_crawler unnecessary often, bitcoincharts requires users to restrict data requests to maximal once per 15 minutes!**
 
+Before you download the package make sure you have the `tidyverse` and the `R.utils` locally installed!
+
+    install.packages('tidyverse')
+    install.packages('R.utils')
+ 
 You can easily download the source files as a complete package in *R*:
 
     # install.packages(devtools)
