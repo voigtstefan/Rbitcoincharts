@@ -29,7 +29,7 @@ and exanching British Pound to (or from) BTC.
 
     data
      # A tibble: 24,715 x 5
-                  Date    Price   Quantity currency exchange
+                  date    price   quantity currency exchange
                 <dttm>    <dbl>      <dbl>    <chr>    <chr>
       1 2017-06-11 10:06:21 2050.810 0.04757535      GBP   kraken
       2 2017-06-11 10:07:40 2030.992 0.00042465      GBP   kraken
