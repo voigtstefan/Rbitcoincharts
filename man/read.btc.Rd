@@ -4,7 +4,16 @@
 \alias{read.btc}
 \title{Read bitcoinchart data}
 \usage{
-read.btc(exc = "kraken", cur = "GBP", folder = ".")
+read.btc(..., folder = ".")
+}
+\arguments{
+\item{folder}{path to folder where the data is saved}
+
+\item{exc}{Exchange}
+
+\item{cur}{Fiat money currency}
+
+\item{file}{File name which links directly to saved files (use either a exc, cur pair **or** file)}
 }
 \description{
 Read bitcoinchart data
