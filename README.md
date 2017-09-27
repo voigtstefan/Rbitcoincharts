@@ -42,3 +42,13 @@ and exanching British Pound to (or from) BTC.
       9 2017-06-11 10:46:33 2086.150 0.01650943      GBP   kraken
       10 2017-06-11 10:59:19 2119.800 0.02826357      GBP   kraken
       # ... with 24,705 more rows
+
+You can check out all available exchanges using the helper function `exchanges()`. To find all exchanges which trade a specific currency pair, try for instance
+
+    exchanges(cur='KRW')  # All exchanges which provide trades for Korean Won/ Bitcoin pairs
+     "korbit" "kraken"
+    
+An equivalent function exists for currencies. Try `currencies()` to get all currencies which are traded against BTC.
+
+    currencies('kraken')  # All asset pairs available at kraken
+    "CAD" "EUR" "GBP" "JPY" "KRW" "LTC" "NMC" "USD" "XRP"
