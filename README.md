@@ -25,12 +25,12 @@ The package provides you with two easy to use functions:
   
   Example: 
   
-     library(Rbitcoincharts)
+     library('Rbitcoincharts')
      download.data(exc='kraken', cur='GBP', folder='.')
      data <- read.btc(exc='kraken', cur='GBP', folder='.')
   
-The result is a tibble which contains more than 24.000 trades completed at Kraken
-and exanching British Pound to (or from) BTC.  
+The result is a `tibble´ which contains more than 24.000 trades completed at Kraken
+and exchanging British Pound to (or from) BTC.  
 
     data
      # A tibble: 24,715 x 5
