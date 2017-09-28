@@ -29,7 +29,7 @@ The package provides you with two easy to use functions:
      download.data(exc='kraken', cur='GBP', folder='.')
      data <- read.btc(exc='kraken', cur='GBP', folder='.')
   
-The result is a `tibble´ which contains more than 24.000 trades completed at Kraken
+The result is a `tibble` which contains more than 24.000 trades completed at Kraken
 and exchanging British Pound to (or from) BTC.  
 
     data
